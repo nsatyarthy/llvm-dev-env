@@ -32,11 +32,3 @@ cmake --build .
 cmake --build . --target install
 ###
 
-
-### Build clang-tools-extra ###
-mkdir ../clang-tools-extra-build-dir
-cd ../clang-tools-extra-build-dir
-cmake -DCMAKE_INSTALL_PREFIX=$HOME/local/ ../clang-tools-extra/
-cmake --build .
-cmake --build . --target install
-###
